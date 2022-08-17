@@ -23,6 +23,8 @@ export class CreateEmployeeComponent implements OnInit {
     department: "-1",
     isActive: null,
     photoPath: null,
+    password: null,
+    confirmPassword: null,
   };
   departments: Department[] = [
     { id: 1, name: "Help Desk" },

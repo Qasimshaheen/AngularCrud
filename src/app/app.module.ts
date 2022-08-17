@@ -4,6 +4,8 @@ import { RouterModule, Routes } from "@angular/router";
 import { FormsModule } from "@angular/forms";
 import { BsDatepickerModule } from "ngx-bootstrap";
 import { SelectRequiredValidatorDirective } from "./shared/select-required-validator.directive";
+import { ConfirmEqualValidatorDirective } from "./shared/confirm-equal-validator.directive";
+
 import { AppComponent } from "./app.component";
 import { ListEmployeesComponent } from "./employees/list-employees.component";
 import { CreateEmployeeComponent } from "./employees/create-employee.component";
@@ -18,6 +20,7 @@ const appRoutes: Routes = [
     ListEmployeesComponent,
     CreateEmployeeComponent,
     SelectRequiredValidatorDirective,
+    ConfirmEqualValidatorDirective,
   ],
   imports: [
     BrowserModule,
